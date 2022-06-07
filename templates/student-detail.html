@@ -1110,11 +1110,9 @@
 
 
                                                         <li>
-                                                            <a href="/students/{{ student.username }}/posts">
-                                                                <div class="youzify-snumber"
-                                                                     title="11">{{ student.posts_count }}</div>
-                                                                <h3 class="youzify-sdescription">Posts</h3>
-                                                            </a>
+                                                            <div class="youzify-snumber"
+                                                                 title="11">{{ student.posts_count }}</div>
+                                                            <h3 class="youzify-sdescription">Posts</h3>
                                                         </li>
 
                                                         <li>
@@ -1371,8 +1369,8 @@
                                                                 <h3 class="youzify-post-title">
                                                                     <a href="/posts/{{ post.id }}">{{ post.title }}</a>
                                                                 </h3>
+                                                                <p style="margin-top: 5px;margin-bottom: 5px;">{{ post.description|safe }}</p>
                                                                 <span class="text-muted">{{ post.added_time }}</span>
-                                                                <p>{{ post.description|safe }}</p>
                                                             </div>
                                                             {% endfor %}
                                                         </div>
