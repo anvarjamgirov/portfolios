@@ -24,7 +24,7 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
 
     <!-- This site is optimized with the Yoast SEO plugin v18.6 - https://yoast.com/wordpress/plugins/seo/ -->
-    <title>Info &#8211; Andre Dubus &#8211; Portfolios</title>
+    <title>Info &#8211; {{ student.full_name }} &#8211; Portfolios</title>
     <link rel="preload" as="style"
           href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C600&#038;display=swap"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans%3A400%2C600&#038;display=swap"
@@ -914,10 +914,10 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="og:type" content="profile">
 
-    <meta property="twitter:title" content="Andre Dubus">
-    <meta property="og:title" content="Andre Dubus">
+    <meta property="twitter:title" content="{{ student.full_name }}">
+    <meta property="og:title" content="{{ student.full_name }}">
 
-    <meta property="og:url" content="/students/andre/">
+    <meta property="og:url" content="/students/{{ student.username }}/">
 
 
     <!-- End of Youzify Open Graph Tags -->
@@ -928,13 +928,14 @@
         }
     </style>
 
-    <link rel="alternate" type="application/rss+xml" title="Portfolios | Andre Dubus | Activity RSS Feed" href=""/>
+    <link rel="alternate" type="application/rss+xml" title="Portfolios | {{ student.full_name }} | Activity RSS Feed"
+          href=""/>
 
 
     <link rel="alternate" type="application/rss+xml" title="Portfolios | Site Wide Activity RSS Feed"
           href="https://youzify.cera-theme.com/activity/feed/"/>
 
-    <link rel='canonical' href='/students/andre/info/'/>
+    <link rel='canonical' href='/students/{{ student.username }}/info/'/>
     <link rel="icon"
           href="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/sites/8/2019/12/cropped-favicon-youzer-150x150.png"
           sizes="32x32"/>
@@ -1035,137 +1036,6 @@
 
 <body data-rsssl=1
       class="bp-user info  buddypress bp-legacy bbp-user-page single singular bbpress no-js page-template-default page page-id-0 page-parent logged-in custom-background wp-custom-logo wp-embed-responsive youzify-blue-scheme grimlock grimlock--classic grimlock--navigation-classic-center grimlock--navigation-classic-top grimlock--navigation-fixed grimlock--back-to-top-right grimlock--loader-fadein-displayed grimlock--page grimlock--archive_forum grimlock-buddypress--members-counts-displayed grimlock-buddypress--bps-form-labels-displayed grimlock-buddypress--members-items-layout-2-2-2-2-2-cols-classic grimlock-buddypress--profile-secondary-nav-mobile-text-displayed grimlock-buddypress--profile-nav-mobile-default-state-closed grimlock-buddypress--groups-counts-displayed grimlock-buddypress--groups-items-layout-3-3-3-3-cols-classic group-blog mobile">
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-        <filter id="wp-duotone-dark-grayscale">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
-            <feComponentTransfer color-interpolation-filters="sRGB">
-                <feFuncR type="table" tableValues="0 0.498039215686"/>
-                <feFuncG type="table" tableValues="0 0.498039215686"/>
-                <feFuncB type="table" tableValues="0 0.498039215686"/>
-                <feFuncA type="table" tableValues="1 1"/>
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in"/>
-        </filter>
-    </defs>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-        <filter id="wp-duotone-grayscale">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
-            <feComponentTransfer color-interpolation-filters="sRGB">
-                <feFuncR type="table" tableValues="0 1"/>
-                <feFuncG type="table" tableValues="0 1"/>
-                <feFuncB type="table" tableValues="0 1"/>
-                <feFuncA type="table" tableValues="1 1"/>
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in"/>
-        </filter>
-    </defs>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-        <filter id="wp-duotone-purple-yellow">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
-            <feComponentTransfer color-interpolation-filters="sRGB">
-                <feFuncR type="table" tableValues="0.549019607843 0.988235294118"/>
-                <feFuncG type="table" tableValues="0 1"/>
-                <feFuncB type="table" tableValues="0.717647058824 0.254901960784"/>
-                <feFuncA type="table" tableValues="1 1"/>
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in"/>
-        </filter>
-    </defs>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-        <filter id="wp-duotone-blue-red">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
-            <feComponentTransfer color-interpolation-filters="sRGB">
-                <feFuncR type="table" tableValues="0 1"/>
-                <feFuncG type="table" tableValues="0 0.278431372549"/>
-                <feFuncB type="table" tableValues="0.592156862745 0.278431372549"/>
-                <feFuncA type="table" tableValues="1 1"/>
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in"/>
-        </filter>
-    </defs>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-        <filter id="wp-duotone-midnight">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
-            <feComponentTransfer color-interpolation-filters="sRGB">
-                <feFuncR type="table" tableValues="0 0"/>
-                <feFuncG type="table" tableValues="0 0.647058823529"/>
-                <feFuncB type="table" tableValues="0 1"/>
-                <feFuncA type="table" tableValues="1 1"/>
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in"/>
-        </filter>
-    </defs>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-        <filter id="wp-duotone-magenta-yellow">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
-            <feComponentTransfer color-interpolation-filters="sRGB">
-                <feFuncR type="table" tableValues="0.780392156863 1"/>
-                <feFuncG type="table" tableValues="0 0.949019607843"/>
-                <feFuncB type="table" tableValues="0.352941176471 0.470588235294"/>
-                <feFuncA type="table" tableValues="1 1"/>
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in"/>
-        </filter>
-    </defs>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-        <filter id="wp-duotone-purple-green">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
-            <feComponentTransfer color-interpolation-filters="sRGB">
-                <feFuncR type="table" tableValues="0.650980392157 0.403921568627"/>
-                <feFuncG type="table" tableValues="0 1"/>
-                <feFuncB type="table" tableValues="0.447058823529 0.4"/>
-                <feFuncA type="table" tableValues="1 1"/>
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in"/>
-        </filter>
-    </defs>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-     style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-    <defs>
-        <filter id="wp-duotone-blue-orange">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                           values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "/>
-            <feComponentTransfer color-interpolation-filters="sRGB">
-                <feFuncR type="table" tableValues="0.0980392156863 1"/>
-                <feFuncG type="table" tableValues="0 0.662745098039"/>
-                <feFuncB type="table" tableValues="0.847058823529 0.419607843137"/>
-                <feFuncA type="table" tableValues="1 1"/>
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in"/>
-        </filter>
-    </defs>
-</svg>
-<a class="skip-link screen-reader-text sr-only sr-only-focusable" href="#content">Skip to main content</a>
-
 <div id="site-wrapper">
 
     <div id="site">
@@ -1180,187 +1050,14 @@
                          style="border-top-color:#eceeef;border-top-style:solid;border-top-width:0;border-bottom-color:#E9EFF3;border-bottom-style:solid;border-bottom-width:0;color:#ffffff;">
                         <div class="grimlock-navbar__container navbar__container">
                             <div class="grimlock-navbar__header navbar__header">
-                                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                                        data-target="#navigation-collapse" aria-controls="navigation-collapse"
-                                        aria-expanded="false" aria-label="Toggle navigation">
-                                    <span></span>
-                                </button>
                                 <div class="navbar-brand">
                                     <div class="site-branding grimlock-site_identity">
                                         <div class="grimlock-site-logo grimlock-navbar-brand__logo site-logo navbar-brand__logo">
-                                            <a href="https://youzify.cera-theme.com/" class="custom-logo-link"
-                                               rel="home"><img width="142" height="44"
-                                                               src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20142%2044'%3E%3C/svg%3E"
-                                                               class="custom-logo" alt="Portfolios"
-                                                               data-lazy-src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/sites/8/2019/10/logo.png"/>
-                                                <noscript><img width="142" height="44"
-                                                               src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/sites/8/2019/10/logo.png"
-                                                               class="custom-logo" alt="Portfolios"/></noscript>
-                                            </a></div><!-- navbar-brand__logo -->
+                                            <a href="/" class="custom-logo-link"
+                                               rel="home">Portfolios</a></div><!-- navbar-brand__logo -->
                                     </div><!-- .site-branding -->
                                 </div><!-- .navbar-brand -->
                             </div><!-- .navbar__header -->
-                            <div class="collapse grimlock-navbar-collapse navbar-collapse" id="navigation-collapse">
-                                <div class="grimlock-navbar-collapse-content navbar-collapse-content">
-                                    <ul id="menu-primary"
-                                        class="nav navbar-nav grimlock-navbar-nav--main-menu navbar-nav--main-menu">
-                                        <li id="menu-item-2013"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-2013">
-                                            <a href="https://youzify.cera-theme.com/">Home</a>
-                                            <ul class="sub-menu">
-                                                <li id="menu-item-1556"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1556">
-                                                    <a href="https://youzify.cera-theme.com/">Homepage</a></li>
-                                                <li id="menu-item-30"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30">
-                                                    <a href="https://youzify.cera-theme.com/dashboard/">Dashboard</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li id="menu-item-2014"
-                                            class="menu-item--title menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2014">
-                                            <a href="#">Community</a>
-                                            <ul class="sub-menu">
-                                                <li id="menu-item-1788"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1788">
-                                                    <a href="/activity"><i
-                                                            class="cera-icon cera-heart text-primary"></i> Social
-                                                        wall</a></li>
-                                                <li id="menu-item-2015"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2015">
-                                                    <a href="/members"><i class="cera-icon cera-globe text-primary"></i>
-                                                        Members</a>
-                                                    <ul class="sub-menu">
-                                                        <li id="menu-item-1790"
-                                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1790">
-                                                            <a href="/members">Members directory</a></li>
-                                                        <li id="menu-item-62"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62">
-                                                            <a href="https://youzify.cera-theme.com/swipe-members/">Swipe
-                                                                Members</a></li>
-                                                        <li id="menu-item-1560"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560">
-                                                            <a href="https://youzify.cera-theme.com/search-members/">Search
-                                                                members</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li id="menu-item-1791"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1791">
-                                                    <a href="/groups"><i class="cera-icon cera-users text-primary"></i>
-                                                        Groups</a></li>
-                                                <li id="menu-item-59"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59">
-                                                    <a href="/forums"><i
-                                                            class="cera-icon cera-message-square text-primary"></i>
-                                                        Forums</a></li>
-                                            </ul>
-                                        </li>
-                                        <li id="menu-item-36"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36">
-                                            <a href="https://youzify.cera-theme.com/news/">News</a></li>
-                                        <li id="menu-item-41"
-                                            class="menu-item--title menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41">
-                                            <a>More</a>
-                                            <ul class="sub-menu">
-                                                <li id="menu-item-1725"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1725">
-                                                    <a href="https://youzify.cera-theme.com/dashboard/">Dashboard
-                                                        page</a></li>
-                                                <li id="menu-item-1597"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1597">
-                                                    <a href="https://youzify.cera-theme.com/private-page/">Password
-                                                        Protected Page</a></li>
-                                                <li id="menu-item-1656"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1656">
-                                                    <a href="https://youzify.cera-theme.com/gutenberg-blocks/">Gutenberg
-                                                        Blocks</a></li>
-                                                <li id="menu-item-44"
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44">
-                                                    <a href="/404-page">404 page</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <ul class="nav navbar-nav navbar-nav--buddypress logged-in">
-
-
-                                        <li class="menu-item ml-0 menu-item--friends">
-                                            <a href="/students/demo/friends">
-                                                <span class="sr-only">My friends</span>
-                                            </a>
-                                        </li>
-
-
-                                        <li class="menu-item ml-0 menu-item--groups">
-                                            <a href="/students/demo/groups">
-                                                <span class="sr-only">My groups</span>
-                                            </a>
-                                        </li>
-
-
-                                        <li class="menu-item ml-0 menu-item--notifications">
-                                            <a href="/students/demo/notifications">
-                                                <span class="sr-only">My notifications</span>
-                                            </a>
-                                        </li>
-
-
-                                        <li class="menu-item ml-0 menu-item--messages">
-                                            <a href="/students/demo/messages">
-                                                <span class="sr-only">My messages</span>
-                                            </a>
-                                        </li>
-
-
-                                        <li class="menu-item menu-item-has-children ml-0 menu-item--profile ">
-                                            <a href="/students/demo/"
-                                               class="menu-item--profile__link ">
-                                                <span class="avatar-round-ratio"><span class="d-block pos-r h-100"><img
-                                                        loading="lazy"
-                                                        data-src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/avatars/109/1653597272-bpthumb.jpg"
-                                                        class="lazyload avatar user-109-avatar avatar-20 photo"
-                                                        width="20" height="20"
-                                                        alt="Profile picture of John Smith"/></span></span>
-                                                <span class="menu-item--profile__name ml-3 d-lg-none">John Smith</span>
-                                            </a>
-
-                                            <ul id="menu-user-logged-in" class="sub-menu">
-                                                <li id="menu-item-110"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110">
-                                                    <a href="https://youzify.cera-theme.com/dashboard/"><i
-                                                            class="cera-icon cera-grid"></i> Dashboard</a></li>
-                                                <li id="menu-item-96"
-                                                    class="bp-menu bp-activity-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-96">
-                                                    <a href="/students/demo/activity/"><i
-                                                            class="cera-icon cera-alert-circle"></i> Activity</a></li>
-                                                <li id="menu-item-99"
-                                                    class="bp-menu bp-notifications-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-99">
-                                                    <a href="/students/demo/notifications/"><i
-                                                            class="cera-icon cera-bell"></i> Notifications</a></li>
-                                                <li id="menu-item-102"
-                                                    class="bp-menu bp-friends-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-102">
-                                                    <a href="/students/demo/friends/"><i
-                                                            class="cera-icon cera-heart"></i> Friends</a></li>
-                                                <li id="menu-item-103"
-                                                    class="bp-menu bp-groups-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-103">
-                                                    <a href="/students/demo/groups/"><i
-                                                            class="cera-icon cera-users"></i> Groups</a></li>
-                                                <li id="menu-item-104"
-                                                    class="bp-menu bp-forums-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-104">
-                                                    <a href="/students/demo/forums/"><i
-                                                            class="cera-icon cera-message-square"></i> Forums</a></li>
-                                                <li id="menu-item-106"
-                                                    class="bp-menu bp-settings-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-106">
-                                                    <a href="/students/demo/settings/"><i
-                                                            class="cera-icon cera-settings"></i> Settings</a></li>
-                                                <li id="menu-item-107"
-                                                    class="bp-menu bp-logout-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-107">
-                                                    <a href="https://youzify.cera-theme.com/wp-login.php?action=logout&#038;redirect_to=https%3A%2F%2Fyouzify.cera-theme.com%2Fmembers%2Fandre%2Finfo%2F&#038;_wpnonce=2b4f52afcc"><i
-                                                            class="cera-icon cera-log-out"></i> Log out</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div><!-- .collapse -->
                         </div><!-- .navbar__container -->
                     </nav><!-- .navbar -->
                 </div><!-- .region__container -->
@@ -1397,15 +1094,15 @@
                                         <div class="youzify-cover-content">
                                             <div class="youzify-inner-content">
                                                 <div class='youzify-profile-photo youzify-photo-circle youzify-photo-border youzify-profile-photo-effect'>
-                                                    <a href='/students/andre/'
+                                                    <a href='/students/{{ student.username }}/'
                                                        class='youzify-profile-img'><img loading="lazy"
-                                                                                        data-src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/avatars/24/610303c46ec47-bpfull.jpg"
+                                                                                        data-src="{{ student.photo_url }}"
                                                                                         class="lazyload avatar user-24-avatar avatar-150 photo"
                                                                                         width="150" height="150"
                                                                                         alt="Profile Photo"/></a></div>
                                                 <div class="youzify-head-content">
-                                                    <div class='youzify-name'><h2>Andre Dubus<span
-                                                            class='youzify-user-status youzify-user-offline'>Offline</span>
+                                                    <div class='youzify-name'><h2>{{ student.full_name }}<span
+                                                            class='youzify-user-status youzify-user-offline'>{{ student.position }}</span>
                                                     </h2></div>
                                                 </div>
                                                 <div class="youzify-user-statistics youzify-statistics-bg youzify-use-borders">
@@ -1413,24 +1110,17 @@
 
 
                                                         <li>
-                                                            <a href="/students/andre/posts">
-                                                                <div class="youzify-snumber" title="11">11</div>
+                                                            <a href="/students/{{ student.username }}/posts">
+                                                                <div class="youzify-snumber"
+                                                                     title="11">{{ student.posts_count }}</div>
                                                                 <h3 class="youzify-sdescription">Posts</h3>
                                                             </a>
                                                         </li>
 
-
                                                         <li>
-                                                            <a href="/students/andre/comments">
-                                                                <div class="youzify-snumber" title="0">0</div>
-                                                                <h3 class="youzify-sdescription">Comments</h3>
-                                                            </a>
-                                                        </li>
-
-
-                                                        <li>
-                                                            <a href="/students/andre/">
-                                                                <div class="youzify-snumber" title="2850">2.9K</div>
+                                                            <a href="/students/{{ student.username }}/">
+                                                                <div class="youzify-snumber"
+                                                                     title="2850">{{ student.views_count }}</div>
                                                                 <h3 class="youzify-sdescription">Views</h3>
                                                             </a>
                                                         </li>
@@ -1448,81 +1138,6 @@
                                     </div>
 
                                 </header>
-
-                                <nav id='youzify-profile-navmenu' class='youzify-navbar-inline-icons'>
-                                    <div class="youzify-inner-content">
-                                        <div class="youzify-open-nav">
-                                            <button class="youzify-responsive-menu"><span>toggle menu</span></button>
-                                        </div>
-                                        <ul class="youzify-profile-navmenu">
-
-
-                                            <li class="youzify-navbar-item youzify-active-menu"><a
-                                                    href="/students/andre/info/"><i
-                                                    class="fas fa-info"></i>Info</a>
-                                            </li>
-
-
-                                            <li class="youzify-navbar-item "><a
-                                                    href="/students/andre/media/"><i
-                                                    class="fas fa-photo-video"></i>Media</a>
-                                            </li>
-
-
-                                            <li class="youzify-navbar-item "><a
-                                                    href="/students/andre/activity/"><i
-                                                    class="fas fa-address-card"></i>Activity</a>
-                                            </li>
-
-
-                                            <li class="youzify-navbar-item "><a
-                                                    href="/students/andre/posts/"><i
-                                                    class="fas fa-pencil-alt"></i>Posts</a>
-                                            </li>
-
-
-                                            <li class="youzify-navbar-item "><a
-                                                    href="/students/andre/blogs/"><i
-                                                    class="fas fa-globe-asia"></i>Sites <span class="no-count">0</span></a>
-                                            </li>
-
-                                            <li class="youzify-navbar-item youzify-navbar-view-more"><a><i
-                                                    class="fas fa-bars"></i>More</a>
-                                                <ul class="youzify-nav-view-more-menu">
-                                                    <li class="youzify-navbar-item "><a
-                                                            href="/students/andre/friends/"><i
-                                                            class="fas fa-handshake"></i>Friends <span
-                                                            class="count">7</span></a>
-
-
-                                                    <li class="youzify-navbar-item "><a
-                                                            href="/students/andre/groups/"><i
-                                                            class="fas fa-users"></i>Groups <span
-                                                            class="no-count">0</span></a>
-
-
-                                                    <li class="youzify-navbar-item "><a
-                                                            href="/students/andre/forums/"><i
-                                                            class="far fa-comments"></i>Forums</a>
-
-                                                </ul>
-                                            </li>
-
-                                        </ul>
-
-                                        <div id="item-header" class="youzify-social-buttons">
-                                            <div class="friendship-button not_friends generic-button"
-                                                 id="friendship-button-24"><a
-                                                    href="/students/demo/friends/add-friend/24/?_wpnonce=44cc878c79"
-                                                    class="friendship-button not_friends add" id="friend-24" rel="add">Add
-                                                Friend</a></div>
-                                            <div class="message-button generic-button" id="send-private-message-24"><a
-                                                    href="/students/demo/messages/compose/?r=andre&#038;_wpnonce=8f96444565"
-                                                    class="youzify-send-message"
-                                                    title="Send a private message to this user.">Message</a></div>
-                                        </div>
-                                    </div>
-                                </nav>
                                 <main class="youzify-page-main-content">
 
 
@@ -1554,7 +1169,8 @@
                                                             <div class="youzify-info-item field_1 field_name required-field visibility-public field_type_textbox">
 
                                                                 <div class="youzify-info-label">Name</div>
-                                                                <div class="youzify-info-data"><p>Andre Dubus</p>
+                                                                <div class="youzify-info-data">
+                                                                    <p>{{ student.full_name }}</p>
                                                                 </div>
 
                                                             </div>
@@ -1563,7 +1179,8 @@
                                                             <div class="youzify-info-item field_2 field_first-name required-field visibility-public alt field_type_textbox">
 
                                                                 <div class="youzify-info-label">First Name</div>
-                                                                <div class="youzify-info-data"><p>Andre</p>
+                                                                <div class="youzify-info-data">
+                                                                    <p>{{ student.first_name }}</p>
                                                                 </div>
 
                                                             </div>
@@ -1572,7 +1189,8 @@
                                                             <div class="youzify-info-item field_3 field_last-name required-field visibility-public field_type_textbox">
 
                                                                 <div class="youzify-info-label">Last Name</div>
-                                                                <div class="youzify-info-data"><p>Dubus</p>
+                                                                <div class="youzify-info-data">
+                                                                    <p>{{ student.last_name }}</p>
                                                                 </div>
 
                                                             </div>
@@ -1581,14 +1199,7 @@
                                                             <div class="youzify-info-item field_30 field_address optional-field visibility-public alt field_type_location">
 
                                                                 <div class="youzify-info-label">Address</div>
-                                                                <div class="youzify-info-data"><p><a
-                                                                        href="/students/?members_search=Washington"
-                                                                        rel="nofollow">Washington</a>, <a
-                                                                        href="/students/?members_search=District+de+Columbia"
-                                                                        rel="nofollow">District de Columbia</a>, <a
-                                                                        href="/students/?members_search=%C3%89tats-Unis"
-                                                                        rel="nofollow">États-Unis</a></p>
-                                                                </div>
+                                                                <div class="youzify-info-data">{{ student.address }}</div>
 
                                                             </div>
 
@@ -1596,7 +1207,8 @@
                                                             <div class="youzify-info-item field_5 field_birthdate required-field visibility-public field_type_datebox">
 
                                                                 <div class="youzify-info-label">Birthdate</div>
-                                                                <div class="youzify-info-data"><p>1987-12-17</p>
+                                                                <div class="youzify-info-data">
+                                                                    <p>{{ student.birth_date }}</p>
                                                                 </div>
 
                                                             </div>
@@ -1605,10 +1217,7 @@
                                                             <div class="youzify-info-item field_6 field_gender optional-field visibility-public alt field_type_selectbox">
 
                                                                 <div class="youzify-info-label">Gender</div>
-                                                                <div class="youzify-info-data"><p><a
-                                                                        href="/students/?members_search=Male"
-                                                                        rel="nofollow">Male</a></p>
-                                                                </div>
+                                                                <div class="youzify-info-data">{{ student.gender }}</div>
 
                                                             </div>
 
@@ -1628,7 +1237,7 @@
 
                                                     <div class="youzify-widget-head">
                                                         <h2 class="youzify-widget-title">
-                                                            <i class="fas fa-info"></i> Details </h2>
+                                                            <i class="fas fa-exclamation"></i> Details </h2>
                                                     </div>
 
                                                     <div class="youzify-widget-content">
@@ -1638,10 +1247,10 @@
 
                                                             <div class="youzify-info-item field_10 field_passion optional-field visibility-public field_type_selectbox">
 
-                                                                <div class="youzify-info-label">Passion</div>
-                                                                <div class="youzify-info-data"><p><a
-                                                                        href="/students/?members_search=Sport"
-                                                                        rel="nofollow">Sport</a></p>
+                                                                <div class="youzify-info-label">Passions</div>
+                                                                <div class="youzify-info-data">
+                                                                    {% for passion in student.passions.all %}{{ passion }}{% if not forloop.last %},
+                                                                    {% endif %}{% endfor %}
                                                                 </div>
 
                                                             </div>
@@ -1652,10 +1261,83 @@
                                                                 <div class="youzify-info-label">Position</div>
                                                                 <div class="youzify-info-data"><p><a
                                                                         href="/students/?members_search=Account+manager"
-                                                                        rel="nofollow">Account manager</a></p>
+                                                                        rel="nofollow">{{ student.position }}</a></p>
                                                                 </div>
 
                                                             </div>
+
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="youzify-widget youzify-custom_infos youzify-white-bg youzify-wg-title-icon-bg">
+
+                                                <div class="youzify-widget-main-content">
+
+                                                    <div class="youzify-widget-head">
+                                                        <h2 class="youzify-widget-title">
+                                                            <i class="fas fa-trophy"></i> Achievements </h2>
+                                                    </div>
+
+                                                    <div class="youzify-widget-content">
+
+                                                        <div class="youzify-infos-content">
+
+                                                            {% for achievement in student.achievements.all %}
+                                                            <div class="youzify-info-item field_10 field_passion optional-field visibility-public field_type_selectbox">
+
+                                                                <div class="youzify-info-label">
+                                                                    <p>{{ achievement.title }}</p><br/>
+                                                                    <span class="text-muted">{{ achievement.date }}</span>
+                                                                </div>
+                                                                <div class="youzify-info-data">
+                                                                    {{ achievement.description|safe }}
+                                                                </div>
+
+                                                            </div>
+                                                            {% endfor %}
+
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="youzify-widget youzify-custom_infos youzify-white-bg youzify-wg-title-icon-bg">
+
+                                                <div class="youzify-widget-main-content">
+
+                                                    <div class="youzify-widget-head">
+                                                        <h2 class="youzify-widget-title">
+                                                            <i class="fas fa-graduation-cap"></i> Educations </h2>
+                                                    </div>
+
+                                                    <div class="youzify-widget-content">
+
+                                                        <div class="youzify-infos-content">
+
+
+                                                            {% for education in student.educations.all %}
+                                                            <div class="youzify-info-item field_10 field_passion optional-field visibility-public field_type_selectbox">
+
+                                                                <div class="youzify-info-label">
+                                                                    <p>{{ education.university }}</p><br/>
+                                                                    <span class="text-muted">{{ education.start_year }} - {{ education.graduate_year }}</span>
+                                                                </div>
+                                                                <div class="youzify-info-data">
+                                                                    {{ education.speciality }}
+                                                                </div>
+
+                                                            </div>
+                                                            {% endfor %}
 
 
                                                         </div>
@@ -1671,225 +1353,6 @@
 
 
                                         <div class="youzify-sidebar-column grid-column youzify-profile-sidebar youzify-right-sidebar">
-                                            <div class="youzify-widget youzify-wall_media youzify-white-bg youzify-wg-title-icon-bg">
-
-                                                <div class="youzify-widget-main-content">
-
-                                                    <div class="youzify-widget-head">
-                                                        <h2 class="youzify-widget-title">
-                                                            <i class="fas fa-photo-video"></i> Media </h2>
-                                                    </div>
-
-                                                    <div class="youzify-widget-content">
-
-                                                        <div class="youzify-media youzify-media-box"
-                                                             style="display: none;">
-                                                            <div class="youzify-media-filter">
-                                                                <div class="youzify-filter-item" style="width:25%;">
-                                                                    <div class="youzify-filter-content youzify-current-filter"
-                                                                         data-type='photos' data-view_all='1'
-                                                                         data-limit='9' data-title='Photos'
-                                                                         data-user_id='24' data-box='small'><i
-                                                                            class="fas fa-image"></i><span>Photos</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="youzify-filter-item" style="width:25%;">
-                                                                    <div class="youzify-filter-content"
-                                                                         data-type='videos' data-view_all='1'
-                                                                         data-limit='9' data-title='Videos'
-                                                                         data-user_id='24' data-box='small'><i
-                                                                            class="fas fa-film"></i><span>Videos</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="youzify-filter-item" style="width:25%;">
-                                                                    <div class="youzify-filter-content"
-                                                                         data-type='audios' data-view_all='1'
-                                                                         data-limit='6' data-title='Audios'
-                                                                         data-user_id='24' data-box='small'><i
-                                                                            class="fas fa-volume-up"></i><span>Audios</span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="youzify-filter-item" style="width:25%;">
-                                                                    <div class="youzify-filter-content"
-                                                                         data-type='files' data-view_all='1'
-                                                                         data-limit='6' data-title='Files'
-                                                                         data-user_id='24' data-box='small'><i
-                                                                            class="fas fa-cloud-download-alt"></i><span>Files</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="youzify-media-widget youzify-media-small-box">
-                                                                <div class="youzify-media-group-photos"
-                                                                     data-active="true">
-
-                                                                    <div class="youzify-media-widget-content">
-                                                                        <div class="youzify-media-no-items">Sorry, no
-                                                                            items found.
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-
-
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-
-                                            <div class="youzify-widget youzify-friends youzify-white-bg youzify-wg-title-icon-bg">
-
-                                                <div class="youzify-widget-main-content">
-
-                                                    <div class="youzify-widget-head">
-                                                        <h2 class="youzify-widget-title">
-                                                            <i class="fas fa-handshake"></i> Friends </h2>
-                                                    </div>
-
-                                                    <div class="youzify-widget-content">
-
-                                                        <div class="youzify-profile-friends-widget youzify-items-list-widget youzify-profile-list-widget youzify-list-avatar-circle">
-
-                                                            <div class="youzify-list-inner">
-
-
-                                                                <div class="youzify-list-item">
-
-                                                                    <a href="/students/jason/"
-                                                                       class="youzify-item-avatar"><img loading="lazy"
-                                                                                                        data-src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/avatars/21/61029bcc3487a-bpfull.jpg"
-                                                                                                        class="lazyload avatar user-21-avatar avatar-60px photo"
-                                                                                                        width="60px"
-                                                                                                        height="60px"
-                                                                                                        alt="Profile Photo"/></a>
-
-
-                                                                    <div class="youzify-item-data">
-                                                                        <a href="/students/jason/"
-                                                                           class="youzify-item-name">Jason Chaffetz</a>
-                                                                        <div class="youzify-item-meta">
-                                                                            <div class="youzify-meta-item">@jason</div>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                </div>
-
-
-                                                                <div class="youzify-list-item">
-
-                                                                    <a href="/students/james/"
-                                                                       class="youzify-item-avatar"><img loading="lazy"
-                                                                                                        data-src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/avatars/7/61029beb7cafa-bpfull.jpg"
-                                                                                                        class="lazyload avatar user-7-avatar avatar-60px photo"
-                                                                                                        width="60px"
-                                                                                                        height="60px"
-                                                                                                        alt="Profile Photo"/></a>
-
-
-                                                                    <div class="youzify-item-data">
-                                                                        <a href="/students/james/"
-                                                                           class="youzify-item-name">James
-                                                                            Washington</a>
-                                                                        <div class="youzify-item-meta">
-                                                                            <div class="youzify-meta-item">@james</div>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                </div>
-
-
-                                                                <div class="youzify-list-item">
-
-                                                                    <a href="/students/marthy/"
-                                                                       class="youzify-item-avatar"><img loading="lazy"
-                                                                                                        data-src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/avatars/8/61029b45641e3-bpfull.jpg"
-                                                                                                        class="lazyload avatar user-8-avatar avatar-60px photo"
-                                                                                                        width="60px"
-                                                                                                        height="60px"
-                                                                                                        alt="Profile Photo"/></a>
-
-
-                                                                    <div class="youzify-item-data">
-                                                                        <a href="/students/marthy/"
-                                                                           class="youzify-item-name">Marthy Berg</a>
-                                                                        <div class="youzify-item-meta">
-                                                                            <div class="youzify-meta-item">@marthy</div>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                </div>
-
-
-                                                                <div class="youzify-list-item">
-
-                                                                    <a href="/students/ralph/"
-                                                                       class="youzify-item-avatar"><img loading="lazy"
-                                                                                                        data-src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/avatars/13/61029cd60d1bd-bpfull.jpg"
-                                                                                                        class="lazyload avatar user-13-avatar avatar-60px photo"
-                                                                                                        width="60px"
-                                                                                                        height="60px"
-                                                                                                        alt="Profile Photo"/></a>
-
-
-                                                                    <div class="youzify-item-data">
-                                                                        <a href="/students/ralph/"
-                                                                           class="youzify-item-name">Ralph Fiennes</a>
-                                                                        <div class="youzify-item-meta">
-                                                                            <div class="youzify-meta-item">@ralph</div>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                </div>
-
-
-                                                                <div class="youzify-list-item">
-
-                                                                    <a href="/students/antawnia/"
-                                                                       class="youzify-item-avatar"><img loading="lazy"
-                                                                                                        data-src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/avatars/4/6102990bad6ce-bpfull.jpg"
-                                                                                                        class="lazyload avatar user-4-avatar avatar-60px photo"
-                                                                                                        width="60px"
-                                                                                                        height="60px"
-                                                                                                        alt="Profile Photo"/></a>
-
-
-                                                                    <div class="youzify-item-data">
-                                                                        <a href="/students/antawnia/"
-                                                                           class="youzify-item-name">Antawnia
-                                                                            Jamison</a>
-                                                                        <div class="youzify-item-meta">
-                                                                            <div class="youzify-meta-item">@antawnia
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                </div>
-
-
-                                                                <div class="youzify-more-items">
-                                                                    <a href="/students/andre/friends">Show
-                                                                        All Friends ( 7 )</a>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
 
                                             <div class="youzify-widget youzify-recent_posts youzify-white-bg youzify-wg-title-icon-bg">
 
@@ -1903,40 +1366,15 @@
                                                     <div class="youzify-widget-content">
 
                                                         <div class="youzify-posts-by-author youzify-recent-posts youzify-rp-img-circle">
+                                                            {% for post in student.recent_posts %}
                                                             <div class="youzify-post-item">
-                                                                <div class="youzify-no-thumbnail">
-                                                                    <div class="thumbnail-icon"><i
-                                                                            class="fas fa-file-alt"></i></div>
-                                                                </div>
-                                                                <div class="youzify-post-head">
-                                                                    <h2 class="youzify-post-title">
-                                                                        <a href="https://youzify.cera-theme.com/status-post-2/">Status
-                                                                            Post</a>
-                                                                    </h2>
-                                                                    <div class="youzify-post-meta">
-                                                                        <ul>
-                                                                            <li>December 8, 2013</li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
+                                                                <h3 class="youzify-post-title">
+                                                                    <a href="/posts/{{ post.id }}">{{ post.title }}</a>
+                                                                </h3>
+                                                                <span class="text-muted">{{ post.added_time }}</span>
+                                                                <p>{{ post.description|safe }}</p>
                                                             </div>
-                                                            <div class="youzify-post-item">
-                                                                <div class="youzify-no-thumbnail">
-                                                                    <div class="thumbnail-icon"><i
-                                                                            class="fas fa-file-alt"></i></div>
-                                                                </div>
-                                                                <div class="youzify-post-head">
-                                                                    <h2 class="youzify-post-title">
-                                                                        <a href="https://youzify.cera-theme.com/image-post-2/">Image
-                                                                            Post</a>
-                                                                    </h2>
-                                                                    <div class="youzify-post-meta">
-                                                                        <ul>
-                                                                            <li>December 8, 2013</li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                            {% endfor %}
                                                         </div>
                                                     </div>
 
@@ -2014,50 +1452,23 @@
                 <div class="grimlock-region__container region__container">
                     <div class="region__row">
                         <div class="region__col region__col--1 widget-area">
-                            <section id="media_image-3" class="widget widget_media_image"><a href="#"><img width="142"
-                                                                                                           height="44"
-                                                                                                           src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20142%2044'%3E%3C/svg%3E"
-                                                                                                           class="image wp-image-45  attachment-full size-full"
-                                                                                                           alt=""
-                                                                                                           style="max-width: 100%; height: auto;"
-                                                                                                           data-lazy-src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/sites/8/2019/10/logo.png"/>
-                                <noscript><img width="142" height="44"
-                                               src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/sites/8/2019/10/logo.png"
-                                               class="image wp-image-45  attachment-full size-full" alt=""
-                                               style="max-width: 100%; height: auto;"/></noscript>
-                            </a></section>
+                            <section id="media_image-3" class="widget widget_media_image">
+                                <a href="#">Portfolios</a>
+                            </section>
                             <section id="text-4" class="widget widget_text">
-                                <div class="textwidget"><p>Welcome to Cera, the modern extranet <br/>and community
+                                <div class="textwidget"><p>Welcome to Portfolios, the modern cv <br/>and portfolio
                                     platform.</p>
                                 </div>
                             </section>
                         </div><!-- .region__col -->
                         <div class="region__col region__col--2 widget-area">
-                            <section id="nav_menu-4" class="widget widget_nav_menu"><span class="widget-title">Cera Community</span>
-                                <div class="menu-footer-1-container">
-                                    <ul id="menu-footer-1" class="menu">
-                                        <li id="menu-item-1752"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1752">
-                                            <a href="https://youzify.cera-theme.com/dashboard/">Dashboard</a></li>
-                                        <li id="menu-item-1787"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1787">
-                                            <a href="/members/">Members</a></li>
-                                        <li id="menu-item-1751"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1751">
-                                            <a href="https://youzify.cera-theme.com/news/">Latest news</a></li>
-                                    </ul>
-                                </div>
+                            <section id="nav_menu-4" class="widget widget_nav_menu">
+                                <div class="menu-footer-1-container"></div>
                             </section>
                         </div><!-- .region__col -->
                         <div class="region__col region__col--3 widget-area">
-                            <section id="nav_menu-5" class="widget widget_nav_menu"><span class="widget-title">Memberships</span>
-                                <div class="menu-footer-2-container">
-                                    <ul id="menu-footer-2" class="menu">
-                                        <li id="menu-item-1774"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1774">
-                                            <a href="https://youzify.cera-theme.com/groups/">Groups</a></li>
-                                    </ul>
-                                </div>
+                            <section id="nav_menu-5" class="widget widget_nav_menu">
+                                <div class="menu-footer-2-container"></div>
                             </section>
                         </div><!-- .region__col -->
                         <div class="region__col region__col--4 widget-area">
@@ -2066,15 +1477,7 @@
                                     <ul id="menu-footer-3" class="menu">
                                         <li id="menu-item-1772"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1772">
-                                            <a href="https://youzify.cera-theme.com/swipe-members/">Swipe Members</a>
-                                        </li>
-                                        <li id="menu-item-1773"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1773">
-                                            <a href="https://youzify.cera-theme.com/search-members/">Search members</a>
-                                        </li>
-                                        <li id="menu-item-1758"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1758">
-                                            <a href="https://youzify.cera-theme.com/wp-login.php?action=logout&#038;_wpnonce=2b4f52afcc&#038;redirect_to=https%3A%2F%2Fyouzify.cera-theme.com%2Fmembers%2Fandre%2Fmedia%2F%3Floggedout%3Dtrue">Logout</a>
+                                            <a href="/students/">All talanted students</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -2093,7 +1496,7 @@
                     <div class="region__row">
                         <div class="region__col region__col--1 widget-area">
                             <section id="text-2" class="widget widget_text">
-                                <div class="textwidget"><p>Copyright © 2021 <a href="#">Cera</a>. All rights reserved
+                                <div class="textwidget"><p>Copyright © 2021 <a href="#">Portfolios</a>. All rights reserved
                                 </p>
                                 </div>
                             </section>
@@ -2104,13 +1507,13 @@
                                     <ul id="menu-social" class="menu">
                                         <li id="menu-item-112"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-112">
-                                            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                            <a href="#"><i class="fa fa-facebook"></i></a></li>
                                         <li id="menu-item-111"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111">
-                                            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                                            <a href="#"><i class="fa fa-twitter"></i></a></li>
                                         <li id="menu-item-113"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113">
-                                            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                                            <a href="#"><i class="fa fa-instagram"></i></a>
                                         </li>
                                     </ul>
                                 </div>

@@ -60,6 +60,20 @@ class Student(models.Model):
     def full_name(self):
         return f"{self.last_name} {self.first_name} {self.middle_name}"
 
+    @property
+    def photo_url(self):
+        if self.photo:
+            return self.photo.url
+        return f"https://telegra.ph/file/957371ca5415412c04544.jpg"
+
+    @property
+    def posts_count(self):
+        return self.posts.count()
+
+    @property
+    def recent_posts(self):
+        return self.posts.all().order_by('-id')[:2]
+
     def __str__(self):
         return self.full_name
 
